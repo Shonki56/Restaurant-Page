@@ -7,10 +7,10 @@ export default function homepage() {
     h1.textContent = "Home Page";
     section.appendChild(h1);
 
-    const homepageText = document.createElement("p");
-    homepageText.textContent =
-        "A lovely little restaurant in the middle of the peak district serving high land venison and pheasant";
-    section.appendChild(homepageText);
+    const mainText = document.createElement("p");
+    mainText.textContent =
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    section.appendChild(mainText);
 
     content.appendChild(section);
 }

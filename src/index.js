@@ -1,6 +1,7 @@
 import home from "./home-page";
 import menu from "./menu-page";
 import about from "./about-page";
+import "./styles.css";
 
 const content = document.querySelector("#content");
 
